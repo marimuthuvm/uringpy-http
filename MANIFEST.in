@@ -1,0 +1,3 @@
+recursive-include vendor *
+recursive-include src/uringpy_http *.pyx *.c *.h
+include README.md LICENSE

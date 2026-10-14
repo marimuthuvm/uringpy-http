@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=64", "wheel", "Cython>=3.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uringpy-http"
+version = "0.1.0"
+description = "An ASGI server on io_uring with a C HTTP/1.1 parser that takes the GIL once per batch of requests"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+authors = [{name = "Marimuthu Velayutham", email = "marimuthu.vm@gmail.com"}]
+keywords = ["io_uring", "asgi", "http", "GIL", "free-threading", "server", "cython"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: Free Threading :: 2 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Internet :: WWW/HTTP :: HTTP Servers",
+    "Framework :: AsyncIO",
+]
+
+[project.optional-dependencies]
+test = ["pytest", "httpx", "starlette", "fastapi"]
+bench = ["uvicorn[standard]", "starlette", "fastapi", "orjson"]
+
+[project.scripts]
+uringpy-http = "uringpy_http.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/marimuthuvm/uringpy-http"
+Repository = "https://github.com/marimuthuvm/uringpy-http"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,8 @@
+build/
+dist/
+*.egg-info/
+*.so
+src/uringpy_http/_core.c
+__pycache__/
+.pytest_cache/
+results/
