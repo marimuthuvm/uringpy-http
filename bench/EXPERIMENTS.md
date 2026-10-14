@@ -10,7 +10,7 @@ directional; that smoke run is not evidence and is not reported.
 ## Testbed
 
 Server `t2d-standard-4` (4 vCPUs, one per physical core, AMD EPYC), client
-`t2d-standard-8`, same zone (`us-east1-b`), Ubuntu 24.04. CPython 3.14 with
+`t2d-standard-8`, same zone (us-east1-b if it has capacity; the zone used is recorded with the results), Ubuntu 24.04. CPython 3.14 with
 and without the GIL (uv-managed builds), liburing 2.6 (vendored), wrk 4.1
 (closed loop, 8 threads, 400 keep-alive connections), wrk2 (open loop).
 Request: `GET /items/42?q=hello`. Each run is a fresh server; 5 s warm-up;

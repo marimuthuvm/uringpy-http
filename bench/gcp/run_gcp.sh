@@ -17,7 +17,9 @@
 # takes about 6 hours (~$3 of VM time); PROFILE=quick takes about 1.5 hours.
 set -euo pipefail
 
-ZONE=${ZONE:-us-east1-b}
+# Zones tried in order until both machine types can be created in one of
+# them (t2d capacity is often short); the zone obtained is remembered.
+ZONES=${ZONES:-${ZONE:-us-east1-b us-east1-c us-east1-d us-central1-a us-central1-b us-central1-c us-central1-f us-east4-a us-east4-b us-east4-c us-west1-a us-west1-b us-west1-c}}
 PROFILE=${PROFILE:-full}
 SERVER=${SERVER_NAME:-uh-bench-server}
 CLIENT=${CLIENT_NAME:-uh-bench-client}
@@ -27,19 +29,34 @@ NETWORK=${NETWORK:-default}
 REPO_DIR=$(cd "$(dirname "$0")/../.." && pwd)
 WORK=${WORK:-$HOME/uh-bench}
 mkdir -p "$WORK"
+ZONE=$(cat "$WORK/zone" 2>/dev/null || echo "${ZONES%% *}")
 
 g() { gcloud compute "$@" --zone "$ZONE" --quiet; }
 on() { local host=$1; shift; g ssh "$host" --command "$*"; }
 
+create() {  # name type
+    g instances create "$1" --machine-type "$2" --network "$NETWORK" \
+        --image-family ubuntu-2404-lts-amd64 --image-project ubuntu-os-cloud \
+        --boot-disk-size 30GB --labels purpose=uringpy-http-bench
+}
+
 cmd_up() {
-    for spec in "$SERVER:$SERVER_TYPE" "$CLIENT:$CLIENT_TYPE"; do
-        name=${spec%%:*}; type=${spec#*:}
-        if ! g instances describe "$name" >/dev/null 2>&1; then
-            g instances create "$name" --machine-type "$type" --network "$NETWORK" \
-                --image-family ubuntu-2404-lts-amd64 --image-project ubuntu-os-cloud \
-                --boot-disk-size 30GB --labels purpose=uringpy-http-bench
-        fi
-    done
+    if ! { g instances describe "$SERVER" && g instances describe "$CLIENT"; } >/dev/null 2>&1; then
+        got=""
+        for z in $ZONES; do
+            ZONE=$z
+            echo "trying zone $ZONE"
+            if create "$SERVER" "$SERVER_TYPE"; then
+                if create "$CLIENT" "$CLIENT_TYPE"; then
+                    got=$z; break
+                fi
+                g instances delete "$SERVER" || true
+            fi
+        done
+        [ -n "$got" ] || { echo "no zone had capacity for both machine types"; exit 1; }
+        echo "$got" > "$WORK/zone"
+        echo "using zone $got"
+    fi
     for host in "$SERVER" "$CLIENT"; do
         for i in $(seq 30); do on "$host" true >/dev/null 2>&1 && break; sleep 10; done
     done
