@@ -1,0 +1,237 @@
+{
+ "fastapi_app.best_thread/ceiling": 0.918,
+ "fastapi_app.best_thread_krps": 8.7,
+ "fastapi_app.bound_S4": 1.1,
+ "fastapi_app.ceiling_krps": 9.5,
+ "fastapi_app.f": 0.91,
+ "fastapi_app.n1.granian.us_per_req": 133.65,
+ "fastapi_app.n1.saved_us_vs_uvicorn": 54.45,
+ "fastapi_app.n1.uh-batch.us_per_req": 116.08,
+ "fastapi_app.n1.uh-batch/granian": [
+  1.151,
+  0.007
+ ],
+ "fastapi_app.n1.uh-batch/h11": [
+  2.287,
+  0.034
+ ],
+ "fastapi_app.n1.uh-batch/uvicorn": [
+  1.469,
+  0.023
+ ],
+ "fastapi_app.n1.uh-request/granian": [
+  1.125,
+  0.011
+ ],
+ "fastapi_app.n1.uh-request/h11": [
+  2.235,
+  0.038
+ ],
+ "fastapi_app.n1.uh-request/uvicorn": [
+  1.435,
+  0.025
+ ],
+ "fastapi_app.n1.uvicorn-h11.us_per_req": 265.52,
+ "fastapi_app.n1.uvicorn-httptools.us_per_req": 170.53,
+ "fastapi_app.n2.uh-batch-thread/n1": [
+  1.009,
+  0.01
+ ],
+ "fastapi_app.n4.uh-batch-proc/granian-proc": [
+  1.579,
+  0.018
+ ],
+ "fastapi_app.n4.uh-batch-proc/uvicorn-proc": [
+  1.442,
+  0.016
+ ],
+ "fastapi_app.n4.uh-batch-thread/granian-proc": [
+  0.411,
+  0.006
+ ],
+ "fastapi_app.n4.uh-batch-thread/uvicorn-proc": [
+  0.375,
+  0.006
+ ],
+ "fastapi_app.n4.uh-batch-thread/uvicorn-thread": [
+  1.775,
+  0.027
+ ],
+ "fastapi_app.tp1_us": 105.64,
+ "ft.fastapi_app.n1.uh-batch/gil-uh-batch": [
+  0.825,
+  0.012
+ ],
+ "ft.fastapi_app.n4.uh-batch-thread/gil-uh-batch-thread": [
+  2.639,
+  0.074
+ ],
+ "ft.fastapi_app.n4.uh-batch-thread/uh-batch-proc": [
+  0.839,
+  0.026
+ ],
+ "ft.fastapi_app.n4.uh-batch-thread/uvicorn-thread": [
+  1.367,
+  0.038
+ ],
+ "ft.fastapi_app.n4.uh-batch/uh-request": [
+  1.034,
+  0.035
+ ],
+ "ft.raw.n1.uh-batch/gil-uh-batch": [
+  0.958,
+  0.026
+ ],
+ "ft.raw.n4.uh-batch-thread/gil-uh-batch-thread": [
+  1.205,
+  0.02
+ ],
+ "ft.raw.n4.uh-batch-thread/uh-batch-proc": [
+  0.968,
+  0.009
+ ],
+ "ft.raw.n4.uh-batch-thread/uvicorn-thread": [
+  3.475,
+  0.059
+ ],
+ "ft.raw.n4.uh-batch/uh-request": [
+  1.019,
+  0.018
+ ],
+ "ol.fastapi_app.uh-batch.process.highest_ok": 30000,
+ "ol.fastapi_app.uh-batch.thread.highest_ok": 5000,
+ "ol.fastapi_app.uh-request.thread.highest_ok": 5000,
+ "ol.fastapi_app.uvicorn-httptools.process.highest_ok": 20000,
+ "ol.raw.uh-batch.process.highest_ok": 250000,
+ "ol.raw.uh-batch.thread.highest_ok": 200000,
+ "ol.raw.uh-request.thread.highest_ok": 50000,
+ "ol.raw.uvicorn-httptools.process.highest_ok": 50000,
+ "raw.best_thread/ceiling": 0.48,
+ "raw.best_thread_krps": 196.5,
+ "raw.bound_S4": 4,
+ "raw.ceiling_krps": 409.3,
+ "raw.f": 0.245,
+ "raw.n1.granian.us_per_req": 14.11,
+ "raw.n1.saved_us_vs_uvicorn": 23.55,
+ "raw.n1.static/uh-batch": [
+  1.258,
+  0.052
+ ],
+ "raw.n1.uh-batch.us_per_req": 9.99,
+ "raw.n1.uh-batch/granian": [
+  1.413,
+  0.042
+ ],
+ "raw.n1.uh-batch/h11": [
+  12.047,
+  0.321
+ ],
+ "raw.n1.uh-batch/uvicorn": [
+  3.357,
+  0.115
+ ],
+ "raw.n1.uh-request/granian": [
+  1.361,
+  0.041
+ ],
+ "raw.n1.uh-request/h11": [
+  11.609,
+  0.314
+ ],
+ "raw.n1.uh-request/uvicorn": [
+  3.235,
+  0.112
+ ],
+ "raw.n1.uvicorn-h11.us_per_req": 120.38,
+ "raw.n1.uvicorn-httptools.us_per_req": 33.54,
+ "raw.n2.uh-batch-thread/n1": [
+  1.574,
+  0.05
+ ],
+ "raw.n4.static-thread/uh-batch-thread": [
+  1.564,
+  0.027
+ ],
+ "raw.n4.uh-batch-proc/granian-proc": [
+  2.083,
+  0.029
+ ],
+ "raw.n4.uh-batch-proc/uvicorn-proc": [
+  2.758,
+  0.036
+ ],
+ "raw.n4.uh-batch-thread/granian-proc": [
+  1.593,
+  0.029
+ ],
+ "raw.n4.uh-batch-thread/uvicorn-proc": [
+  2.109,
+  0.037
+ ],
+ "raw.n4.uh-batch-thread/uvicorn-thread": [
+  12.535,
+  0.232
+ ],
+ "raw.python_us_per_req": 2.05,
+ "raw.static_us_per_req": 7.94,
+ "raw.tp1_us": 2.44,
+ "starlette_app.best_thread/ceiling": 0.822,
+ "starlette_app.best_thread_krps": 39.5,
+ "starlette_app.bound_S4": 1.37,
+ "starlette_app.ceiling_krps": 48.1,
+ "starlette_app.f": 0.731,
+ "starlette_app.n1.granian.us_per_req": 41.31,
+ "starlette_app.n1.saved_us_vs_uvicorn": 40.01,
+ "starlette_app.n1.uh-batch.us_per_req": 28.46,
+ "starlette_app.n1.uh-batch/granian": [
+  1.451,
+  0.035
+ ],
+ "starlette_app.n1.uh-batch/h11": [
+  5.626,
+  0.11
+ ],
+ "starlette_app.n1.uh-batch/uvicorn": [
+  2.406,
+  0.047
+ ],
+ "starlette_app.n1.uh-request/granian": [
+  1.37,
+  0.042
+ ],
+ "starlette_app.n1.uh-request/h11": [
+  5.31,
+  0.145
+ ],
+ "starlette_app.n1.uh-request/uvicorn": [
+  2.271,
+  0.062
+ ],
+ "starlette_app.n1.uvicorn-h11.us_per_req": 160.13,
+ "starlette_app.n1.uvicorn-httptools.us_per_req": 68.47,
+ "starlette_app.n2.uh-batch-thread/n1": [
+  1.125,
+  0.023
+ ],
+ "starlette_app.n4.uh-batch-proc/granian-proc": [
+  1.668,
+  0.024
+ ],
+ "starlette_app.n4.uh-batch-proc/uvicorn-proc": [
+  2.144,
+  0.031
+ ],
+ "starlette_app.n4.uh-batch-thread/granian-proc": [
+  0.57,
+  0.008
+ ],
+ "starlette_app.n4.uh-batch-thread/uvicorn-proc": [
+  0.733,
+  0.011
+ ],
+ "starlette_app.n4.uh-batch-thread/uvicorn-thread": [
+  3.671,
+  0.053
+ ],
+ "starlette_app.tp1_us": 20.79
+}

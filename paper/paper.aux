@@ -1,0 +1,73 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{uvicorn}
+\citation{uvloop}
+\citation{llhttp}
+\citation{uringpy}
+\citation{asgi}
+\citation{picohttpparser}
+\citation{granian}
+\citation{asgi}
+\citation{starlette}
+\citation{fastapi}
+\citation{uvicorn}
+\citation{granian}
+\citation{llhttp}
+\citation{picohttpparser}
+\citation{h2o}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Background and Related Work}{1}{section.2}\protected@file@percent }
+\citation{beazley}
+\citation{amdahl}
+\citation{eyerman}
+\citation{axboe}
+\citation{uringpy}
+\citation{pep703}
+\citation{wrk2}
+\citation{uringpy}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces One pass of a worker. Plain boxes run in C with the GIL released; the shaded steps run under one acquisition for every request in the pass, or for one request at a time with batching off.}}{2}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:pipeline}{{1}{2}{One pass of a worker. Plain boxes run in C with the GIL released; the shaded steps run under one acquisition for every request in the pass, or for one request at a time with batching off}{figure.caption.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Design}{2}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Method}{2}{section.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces One worker: thousands of requests per second (mean $\pm $ 95\% half-width) and the ratio to Uvicorn with \texttt  {httptools}.}}{3}{table.caption.2}\protected@file@percent }
+\newlabel{tab:one}{{I}{3}{One worker: thousands of requests per second (mean $\pm $ 95\% half-width) and the ratio to Uvicorn with \code {httptools}}{table.caption.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results}{3}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}The cost of one request (Q1)}{3}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Scaling with workers (Q2)}{3}{subsection.5.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Four workers (closed loop, GIL build): threads over processes of the same server (T/P), and per request the voluntary context switches (c.sw.) and GIL owner changes ($g$) of the threads.}}{3}{table.caption.4}\protected@file@percent }
+\newlabel{tab:scale}{{II}{3}{Four workers (closed loop, GIL build): threads over processes of the same server (T/P), and per request the voluntary context switches (c.sw.) and GIL owner changes ($g$) of the threads}{table.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Time under the GIL (Q3)}{3}{subsection.5.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Throughput against workers (closed loop, GIL build). Solid lines and filled markers are threads of one interpreter; dashed lines and hollow markers are processes. Error bars are 95\% intervals (most are smaller than the markers).}}{4}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:tput}{{2}{4}{Throughput against workers (closed loop, GIL build). Solid lines and filled markers are threads of one interpreter; dashed lines and hollow markers are processes. Error bars are 95\% intervals (most are smaller than the markers)}{figure.caption.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces GIL hold per request with one worker, the ceiling it sets on any number of threads, and what four batched threads deliver.}}{4}{table.caption.5}\protected@file@percent }
+\newlabel{tab:hold}{{III}{4}{GIL hold per request with one worker, the ceiling it sets on any number of threads, and what four batched threads deliver}{table.caption.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces Free-threaded CPython~3.14.8t: thousands of requests per second and threads over processes at four workers.}}{4}{table.caption.6}\protected@file@percent }
+\newlabel{tab:ft}{{IV}{4}{Free-threaded CPython~3.14.8t: thousands of requests per second and threads over processes at four workers}{table.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}The free-threaded build (Q4)}{4}{subsection.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Open-loop latency}{4}{subsection.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6}Expectations and outcomes}{4}{subsection.5.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion}{4}{section.6}\protected@file@percent }
+\bibcite{uringpy}{1}
+\bibcite{uvicorn}{2}
+\bibcite{uvloop}{3}
+\bibcite{llhttp}{4}
+\bibcite{picohttpparser}{5}
+\bibcite{h2o}{6}
+\bibcite{granian}{7}
+\bibcite{asgi}{8}
+\bibcite{starlette}{9}
+\bibcite{fastapi}{10}
+\bibcite{axboe}{11}
+\bibcite{beazley}{12}
+\bibcite{amdahl}{13}
+\bibcite{eyerman}{14}
+\bibcite{pep703}{15}
+\bibcite{wrk2}{16}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces 99th-percentile latency under open-loop load (wrk2, corrected for coordinated omission), four workers, log scale. A cross marks a run that delivered less than 95\% of the offered rate.}}{5}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:ol}{{3}{5}{99th-percentile latency under open-loop load (wrk2, corrected for coordinated omission), four workers, log scale. A cross marks a run that delivered less than 95\% of the offered rate}{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Threats to Validity}{5}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusion}{5}{section.8}\protected@file@percent }
+\gdef \@abspage@last{5}

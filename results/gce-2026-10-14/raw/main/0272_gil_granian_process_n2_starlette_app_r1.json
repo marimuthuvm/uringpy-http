@@ -1,0 +1,39 @@
+{
+ "server": "granian",
+ "mode": "process",
+ "app": "starlette_app",
+ "workers": 2,
+ "build": "gil",
+ "rep": 1,
+ "command": "/opt/uh/venv-gil/bin/granian --interface asgi --host 0.0.0.0 --port 8000 --workers 2 --no-ws --log-level warning --backlog 1024 starlette_app:app",
+ "started": 1792010818.932679,
+ "server_pid": 11008,
+ "wrk": {
+  "requests": 904563,
+  "duration_us": 20099356,
+  "bytes": 141111828,
+  "err_connect": 0,
+  "err_read": 0,
+  "err_write": 0,
+  "err_status": 0,
+  "err_timeout": 0,
+  "lat_mean_us": 8849.64,
+  "lat_p50_us": 8737,
+  "lat_p90_us": 10890,
+  "lat_p99_us": 11806,
+  "lat_p999_us": 12874,
+  "lat_max_us": 16990,
+  "rps": 45004.57626602564
+ },
+ "server_busy_share": 0.8132316190977246,
+ "server_steal_share": 0.0,
+ "server_cpus": 4,
+ "client_busy_share": 0.16193291350726127,
+ "server_counters": {
+  "processes": 0
+ },
+ "server_processes": 0,
+ "gil_enabled": [],
+ "ok": true,
+ "finished": 1792010845.2679424
+}

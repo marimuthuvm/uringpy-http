@@ -1,0 +1,46 @@
+{
+ "server": "uvicorn-httptools",
+ "mode": "process",
+ "app": "starlette_app",
+ "workers": 1,
+ "build": "gil",
+ "rep": 4,
+ "command": "/opt/uh/venv-gil/bin/python ../servers/uvicorn_server.py starlette_app:app --host 0.0.0.0 --port 8000 --workers 1 --mode process --http httptools --loop uvloop --stats-file /tmp/uh-stats-101.jsonl",
+ "started": 1792006265.392004,
+ "server_pid": 6532,
+ "wrk": {
+  "requests": 287784,
+  "duration_us": 20019449,
+  "bytes": 40002408,
+  "err_connect": 0,
+  "err_read": 0,
+  "err_write": 0,
+  "err_status": 0,
+  "err_timeout": 0,
+  "lat_mean_us": 126032.56,
+  "lat_p50_us": 27336,
+  "lat_p90_us": 29969,
+  "lat_p99_us": 2881411,
+  "lat_p999_us": 4301809,
+  "lat_max_us": 4951682,
+  "rps": 14375.220816516978
+ },
+ "server_busy_share": 0.2604260813428018,
+ "server_steal_share": 0.0,
+ "server_cpus": 4,
+ "client_busy_share": 0.07420449452589795,
+ "server_counters": {
+  "voluntary_ctx": 771,
+  "involuntary_ctx": 79,
+  "utime": 14.523292000000001,
+  "stime": 5.537095000000001,
+  "gil_switches": 200,
+  "processes": 0
+ },
+ "server_processes": 1,
+ "gil_enabled": [
+  "True"
+ ],
+ "ok": true,
+ "finished": 1792006291.6741269
+}

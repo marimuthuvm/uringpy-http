@@ -1,0 +1,39 @@
+{
+ "server": "granian",
+ "mode": "process",
+ "app": "fastapi_app",
+ "workers": 1,
+ "build": "gil",
+ "rep": 3,
+ "command": "/opt/uh/venv-gil/bin/granian --interface asgi --host 0.0.0.0 --port 8000 --workers 1 --no-ws --log-level warning --backlog 1024 fastapi_app:app",
+ "started": 1792010340.39276,
+ "server_pid": 10542,
+ "wrk": {
+  "requests": 149471,
+  "duration_us": 20026561,
+  "bytes": 23317476,
+  "err_connect": 0,
+  "err_read": 0,
+  "err_write": 0,
+  "err_status": 0,
+  "err_timeout": 0,
+  "lat_mean_us": 53479.9,
+  "lat_p50_us": 53660,
+  "lat_p90_us": 55063,
+  "lat_p99_us": 56377,
+  "lat_p999_us": 57035,
+  "lat_max_us": 60352,
+  "rps": 7463.6379156661
+ },
+ "server_busy_share": 0.33611849601215343,
+ "server_steal_share": 0.0,
+ "server_cpus": 4,
+ "client_busy_share": 0.03596031093977122,
+ "server_counters": {
+  "processes": 0
+ },
+ "server_processes": 0,
+ "gil_enabled": [],
+ "ok": true,
+ "finished": 1792010366.765373
+}

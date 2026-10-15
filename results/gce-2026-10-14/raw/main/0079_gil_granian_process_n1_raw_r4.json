@@ -1,0 +1,39 @@
+{
+ "server": "granian",
+ "mode": "process",
+ "app": "raw",
+ "workers": 1,
+ "build": "gil",
+ "rep": 4,
+ "command": "/opt/uh/venv-gil/bin/granian --interface asgi --host 0.0.0.0 --port 8000 --workers 1 --no-ws --log-level warning --backlog 1024 raw:app",
+ "started": 1792005676.7448678,
+ "server_pid": 5917,
+ "wrk": {
+  "requests": 1396406,
+  "duration_us": 20098981,
+  "bytes": 184325592,
+  "err_connect": 0,
+  "err_read": 0,
+  "err_write": 0,
+  "err_status": 0,
+  "err_timeout": 0,
+  "lat_mean_us": 5729.06,
+  "lat_p50_us": 5822,
+  "lat_p90_us": 6384,
+  "lat_p99_us": 6846,
+  "lat_p999_us": 7257,
+  "lat_max_us": 12365,
+  "rps": 69476.45753782244
+ },
+ "server_busy_share": 0.5866168024575932,
+ "server_steal_share": 0.0,
+ "server_cpus": 4,
+ "client_busy_share": 0.2510510893107402,
+ "server_counters": {
+  "processes": 0
+ },
+ "server_processes": 0,
+ "gil_enabled": [],
+ "ok": true,
+ "finished": 1792005703.0894382
+}

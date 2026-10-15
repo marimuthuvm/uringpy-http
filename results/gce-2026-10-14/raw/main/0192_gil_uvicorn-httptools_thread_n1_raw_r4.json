@@ -1,0 +1,46 @@
+{
+ "server": "uvicorn-httptools",
+ "mode": "thread",
+ "app": "raw",
+ "workers": 1,
+ "build": "gil",
+ "rep": 4,
+ "command": "/opt/uh/venv-gil/bin/python ../servers/uvicorn_server.py raw:app --host 0.0.0.0 --port 8000 --workers 1 --mode thread --http httptools --loop uvloop --stats-file /tmp/uh-stats-192.jsonl",
+ "started": 1792008680.5433626,
+ "server_pid": 8812,
+ "wrk": {
+  "requests": 605686,
+  "duration_us": 20017205,
+  "bytes": 69654400,
+  "err_connect": 0,
+  "err_read": 0,
+  "err_write": 0,
+  "err_status": 0,
+  "err_timeout": 0,
+  "lat_mean_us": 38372.49,
+  "lat_p50_us": 12964,
+  "lat_p90_us": 14175,
+  "lat_p99_us": 1026918,
+  "lat_p999_us": 1971632,
+  "lat_max_us": 2416034,
+  "rps": 30258.27032295468
+ },
+ "server_busy_share": 0.27036789297658864,
+ "server_steal_share": 0.0,
+ "server_cpus": 4,
+ "client_busy_share": 0.12240230035289505,
+ "server_counters": {
+  "voluntary_ctx": 816,
+  "involuntary_ctx": 71,
+  "utime": 10.668277,
+  "stime": 9.380006999999999,
+  "gil_switches": 200,
+  "processes": 0
+ },
+ "server_processes": 1,
+ "gil_enabled": [
+  "True"
+ ],
+ "ok": true,
+ "finished": 1792008706.848797
+}

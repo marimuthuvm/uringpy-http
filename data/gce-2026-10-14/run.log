@@ -1,0 +1,694 @@
+[main 1/390 eta 202min] gil uh-request process n=2 starlette_app: 59508 req/s
+[main 2/390 eta 186min] gil uvicorn-h11 process n=4 raw: 30732 req/s
+[main 3/390 eta 180min] gil uh-batch thread n=2 raw: 157750 req/s
+[main 4/390 eta 178min] gil uvicorn-httptools process n=1 fastapi_app: 5868 req/s
+[main 5/390 eta 175min] gil uh-request process n=4 starlette_app: 102679 req/s
+[main 6/390 eta 174min] gil uh-request process n=1 fastapi_app: 8477 req/s
+[main 7/390 eta 173min] gil uh-batch process n=4 fastapi_app: 32334 req/s
+[main 8/390 eta 172min] gil uvicorn-httptools thread n=1 raw: 29432 req/s
+[main 9/390 eta 171min] gil uvicorn-httptools process n=1 raw: 30347 req/s
+[main 10/390 eta 170min] gil uh-batch process n=4 starlette_app: 107384 req/s
+[main 11/390 eta 169min] gil uvicorn-h11 process n=2 starlette_app: 12424 req/s
+[main 12/390 eta 168min] gil uvicorn-h11 process n=1 raw: 8358 req/s
+[main 13/390 eta 168min] gil uvicorn-httptools process n=1 fastapi_app: 5827 req/s
+[main 14/390 eta 167min] gil uvicorn-httptools thread n=4 starlette_app: 9873 req/s
+[main 15/390 eta 167min] gil uh-request process n=2 starlette_app: 60735 req/s
+[main 16/390 eta 166min] gil uh-batch thread n=1 fastapi_app: 8648 req/s
+[main 17/390 eta 165min] gil uh-request thread n=4 raw: 93548 req/s
+[main 18/390 eta 165min] gil uvicorn-httptools process n=4 starlette_app: 49295 req/s
+[main 19/390 eta 164min] gil uh-request thread n=1 starlette_app: 33553 req/s
+[main 20/390 eta 164min] gil uvicorn-httptools thread n=2 raw: 24192 req/s
+[main 21/390 eta 163min] gil uh-batch thread n=1 raw: 101788 req/s
+[main 22/390 eta 163min] gil uvicorn-httptools process n=1 starlette_app: 14665 req/s
+[main 23/390 eta 162min] gil uvicorn-httptools process n=2 starlette_app: 27745 req/s
+[main 24/390 eta 162min] gil uh-batch thread n=2 raw: 157438 req/s
+[main 25/390 eta 161min] gil uvicorn-h11 process n=1 fastapi_app: 3736 req/s
+[main 26/390 eta 161min] gil uh-request process n=1 fastapi_app: 8312 req/s
+[main 27/390 eta 160min] gil uvicorn-httptools thread n=2 starlette_app: 13070 req/s
+[main 28/390 eta 160min] gil uh-batch process n=2 starlette_app: 63936 req/s
+[main 29/390 eta 159min] gil uvicorn-httptools process n=1 raw: 28967 req/s
+[main 30/390 eta 159min] gil uvicorn-httptools process n=2 starlette_app: 28198 req/s
+[main 31/390 eta 159min] gil uh-request process n=4 fastapi_app: 31677 req/s
+[main 32/390 eta 159min] gil uh-request thread n=1 raw: 98889 req/s
+[main 33/390 eta 158min] gil granian process n=4 fastapi_app: 20315 req/s
+[main 34/390 eta 158min] gil uh-static process n=2 raw: 205577 req/s
+[main 35/390 eta 157min] gil uh-request thread n=4 starlette_app: 29457 req/s
+[main 36/390 eta 157min] gil uvicorn-h11 process n=1 fastapi_app: 3792 req/s
+[main 37/390 eta 156min] gil uvicorn-httptools thread n=4 starlette_app: 9961 req/s
+[main 38/390 eta 156min] gil uh-batch thread n=2 starlette_app: 39649 req/s
+[main 39/390 eta 155min] gil uvicorn-h11 process n=4 fastapi_app: 14597 req/s
+[main 40/390 eta 155min] gil uh-static process n=4 raw: 309106 req/s
+[main 41/390 eta 154min] gil uh-batch thread n=4 starlette_app: 36574 req/s
+[main 42/390 eta 154min] gil uh-request thread n=1 fastapi_app: 8351 req/s
+[main 43/390 eta 153min] gil granian process n=4 raw: 122398 req/s
+[main 44/390 eta 153min] gil uvicorn-h11 process n=2 raw: 16856 req/s
+[main 45/390 eta 152min] gil granian process n=2 raw: 107179 req/s
+[main 46/390 eta 152min] gil uh-request thread n=4 fastapi_app: 7868 req/s
+[main 47/390 eta 152min] gil uh-request thread n=2 raw: 140387 req/s
+[main 48/390 eta 151min] gil uh-batch process n=1 fastapi_app: 8592 req/s
+[main 49/390 eta 151min] gil uvicorn-httptools thread n=4 raw: 15448 req/s
+[main 50/390 eta 150min] gil uh-batch process n=4 raw: 257600 req/s
+[main 51/390 eta 150min] gil uh-request thread n=1 starlette_app: 32021 req/s
+[main 52/390 eta 150min] gil uh-request process n=1 raw: 96146 req/s
+[main 53/390 eta 149min] gil uvicorn-httptools thread n=4 raw: 15779 req/s
+[main 54/390 eta 149min] gil uh-request process n=4 raw: 250681 req/s
+[main 55/390 eta 148min] gil uvicorn-httptools thread n=2 raw: 24477 req/s
+[main 56/390 eta 148min] gil uh-batch thread n=4 fastapi_app: 8461 req/s
+[main 57/390 eta 147min] gil uvicorn-httptools thread n=2 raw: 24386 req/s
+[main 58/390 eta 147min] gil uh-request thread n=2 starlette_app: 32095 req/s
+[main 59/390 eta 147min] gil uh-request process n=2 starlette_app: 60436 req/s
+[main 60/390 eta 146min] gil uh-batch thread n=1 fastapi_app: 8557 req/s
+[main 61/390 eta 146min] gil uh-batch process n=4 fastapi_app: 32483 req/s
+[main 62/390 eta 146min] gil uvicorn-h11 process n=4 raw: 30300 req/s
+[main 63/390 eta 145min] gil uh-static thread n=2 raw: 202476 req/s
+[main 64/390 eta 145min] gil granian process n=2 fastapi_app: 14503 req/s
+[main 65/390 eta 144min] gil uh-request thread n=4 raw: 94531 req/s
+[main 66/390 eta 144min] gil uh-request process n=2 fastapi_app: 16752 req/s
+[main 67/390 eta 144min] gil granian process n=4 raw: 124769 req/s
+[main 68/390 eta 143min] gil uvicorn-httptools process n=2 raw: 55510 req/s
+[main 69/390 eta 143min] gil uvicorn-httptools thread n=1 fastapi_app: 5832 req/s
+[main 70/390 eta 142min] gil uh-static thread n=2 raw: 201871 req/s
+[main 71/390 eta 142min] gil uh-batch thread n=2 raw: 155428 req/s
+[main 72/390 eta 141min] gil granian process n=2 starlette_app: 45390 req/s
+[main 73/390 eta 141min] gil uh-batch process n=4 raw: 259726 req/s
+[main 74/390 eta 140min] gil uh-batch thread n=4 raw: 197167 req/s
+[main 75/390 eta 140min] gil uh-batch thread n=2 fastapi_app: 8767 req/s
+[main 76/390 eta 139min] gil uvicorn-h11 process n=2 fastapi_app: 7437 req/s
+[main 77/390 eta 139min] gil uh-batch thread n=4 raw: 192283 req/s
+[main 78/390 eta 138min] gil uh-batch thread n=2 raw: 154713 req/s
+[main 79/390 eta 138min] gil granian process n=1 raw: 69476 req/s
+[main 80/390 eta 137min] gil uh-batch process n=2 starlette_app: 63716 req/s
+[main 81/390 eta 137min] gil uh-batch process n=2 raw: 167989 req/s
+[main 82/390 eta 137min] gil uvicorn-httptools process n=4 raw: 93126 req/s
+[main 83/390 eta 136min] gil uh-static thread n=2 raw: 205817 req/s
+[main 84/390 eta 136min] gil uh-batch thread n=2 raw: 162208 req/s
+[main 85/390 eta 135min] gil uh-batch thread n=4 raw: 197587 req/s
+[main 86/390 eta 135min] gil uvicorn-httptools process n=4 fastapi_app: 22517 req/s
+[main 87/390 eta 135min] gil granian process n=4 starlette_app: 64501 req/s
+[main 88/390 eta 134min] gil uvicorn-h11 process n=4 fastapi_app: 14581 req/s
+[main 89/390 eta 134min] gil uh-request process n=4 fastapi_app: 31696 req/s
+[main 90/390 eta 133min] gil uvicorn-h11 process n=4 starlette_app: 23185 req/s
+[main 91/390 eta 133min] gil granian process n=2 fastapi_app: 14274 req/s
+[main 92/390 eta 132min] gil uh-static thread n=1 raw: 126472 req/s
+[main 93/390 eta 132min] gil uh-batch process n=2 fastapi_app: 17200 req/s
+[main 94/390 eta 132min] gil uh-request process n=2 starlette_app: 61268 req/s
+[main 95/390 eta 131min] gil uvicorn-h11 process n=2 fastapi_app: 7464 req/s
+[main 96/390 eta 131min] gil uvicorn-h11 process n=1 raw: 8368 req/s
+[main 97/390 eta 130min] gil uh-static thread n=1 raw: 131309 req/s
+[main 98/390 eta 130min] gil uh-static process n=2 raw: 208053 req/s
+[main 99/390 eta 129min] gil uh-request thread n=2 starlette_app: 33437 req/s
+[main 100/390 eta 129min] gil uh-static thread n=4 raw: 309843 req/s
+[main 101/390 eta 128min] gil uvicorn-httptools process n=1 starlette_app: 14375 req/s
+[main 102/390 eta 128min] gil granian process n=4 starlette_app: 64390 req/s
+[main 103/390 eta 127min] gil granian process n=1 raw: 71281 req/s
+[main 104/390 eta 127min] gil uvicorn-h11 process n=4 starlette_app: 23312 req/s
+[main 105/390 eta 127min] gil uh-batch process n=1 fastapi_app: 8805 req/s
+[main 106/390 eta 126min] gil uh-batch thread n=1 raw: 99537 req/s
+[main 107/390 eta 126min] gil uvicorn-httptools thread n=2 raw: 24514 req/s
+[main 108/390 eta 125min] gil uh-request process n=2 fastapi_app: 16801 req/s
+[main 109/390 eta 125min] gil uh-batch thread n=4 starlette_app: 36459 req/s
+[main 110/390 eta 125min] gil uh-request process n=2 raw: 158544 req/s
+[main 111/390 eta 124min] gil uh-static thread n=1 raw: 122923 req/s
+[main 112/390 eta 124min] gil uh-request thread n=1 starlette_app: 33663 req/s
+[main 113/390 eta 123min] gil uh-batch process n=4 raw: 254148 req/s
+[main 114/390 eta 123min] gil uh-batch process n=4 raw: 256312 req/s
+[main 115/390 eta 122min] gil uvicorn-httptools process n=2 raw: 56382 req/s
+[main 116/390 eta 122min] gil uvicorn-httptools process n=4 raw: 93674 req/s
+[main 117/390 eta 121min] gil uh-static process n=4 raw: 306010 req/s
+[main 118/390 eta 121min] gil uh-request thread n=1 fastapi_app: 8384 req/s
+[main 119/390 eta 120min] gil granian process n=1 starlette_app: 24269 req/s
+[main 120/390 eta 120min] gil uvicorn-httptools thread n=2 starlette_app: 13194 req/s
+[main 121/390 eta 120min] gil uvicorn-httptools process n=2 raw: 55993 req/s
+[main 122/390 eta 119min] gil uvicorn-httptools process n=2 starlette_app: 28420 req/s
+[main 123/390 eta 119min] gil uh-request process n=4 raw: 250532 req/s
+[main 124/390 eta 118min] gil uh-batch process n=2 fastapi_app: 17295 req/s
+[main 125/390 eta 118min] gil uh-batch thread n=4 starlette_app: 37009 req/s
+[main 126/390 eta 117min] gil uh-request process n=4 raw: 250712 req/s
+[main 127/390 eta 117min] gil uh-batch process n=1 starlette_app: 35230 req/s
+[main 128/390 eta 116min] gil uvicorn-httptools process n=2 fastapi_app: 11859 req/s
+[main 129/390 eta 116min] gil uh-static process n=2 raw: 208786 req/s
+[main 130/390 eta 115min] gil uvicorn-httptools process n=1 starlette_app: 14651 req/s
+[main 131/390 eta 115min] gil uvicorn-h11 process n=2 fastapi_app: 7559 req/s
+[main 132/390 eta 115min] gil uvicorn-httptools process n=4 raw: 93962 req/s
+[main 133/390 eta 114min] gil uvicorn-h11 process n=1 starlette_app: 6213 req/s
+[main 134/390 eta 114min] gil uh-batch thread n=4 fastapi_app: 8526 req/s
+[main 135/390 eta 113min] gil uh-batch thread n=2 fastapi_app: 8626 req/s
+[main 136/390 eta 113min] gil uh-batch thread n=1 fastapi_app: 8612 req/s
+[main 137/390 eta 112min] gil uvicorn-h11 process n=2 fastapi_app: 7433 req/s
+[main 138/390 eta 112min] gil uvicorn-h11 process n=2 fastapi_app: 7425 req/s
+[main 139/390 eta 111min] gil uh-request thread n=4 raw: 94817 req/s
+[main 140/390 eta 111min] gil uh-request process n=4 fastapi_app: 31731 req/s
+[main 141/390 eta 110min] gil uvicorn-httptools process n=1 raw: 29651 req/s
+[main 142/390 eta 110min] gil granian process n=2 fastapi_app: 14403 req/s
+[main 143/390 eta 110min] gil uh-request process n=4 starlette_app: 105300 req/s
+[main 144/390 eta 109min] gil uvicorn-httptools process n=4 fastapi_app: 22384 req/s
+[main 145/390 eta 109min] gil uvicorn-httptools thread n=4 starlette_app: 9944 req/s
+[main 146/390 eta 108min] gil uh-static process n=4 raw: 304448 req/s
+[main 147/390 eta 108min] gil granian process n=1 fastapi_app: 7505 req/s
+[main 148/390 eta 107min] gil uh-request process n=4 raw: 248453 req/s
+[main 149/390 eta 107min] gil uvicorn-httptools thread n=1 starlette_app: 15037 req/s
+[main 150/390 eta 106min] gil uh-batch process n=2 raw: 167511 req/s
+[main 151/390 eta 106min] gil uh-request thread n=1 fastapi_app: 8403 req/s
+[main 152/390 eta 106min] gil uh-request process n=1 fastapi_app: 8400 req/s
+[main 153/390 eta 105min] gil uvicorn-h11 process n=2 starlette_app: 12441 req/s
+[main 154/390 eta 105min] gil uh-batch process n=1 starlette_app: 35296 req/s
+[main 155/390 eta 104min] gil uvicorn-h11 process n=1 starlette_app: 6174 req/s
+[main 156/390 eta 104min] gil uvicorn-httptools thread n=1 starlette_app: 14286 req/s
+[main 157/390 eta 103min] gil uvicorn-httptools process n=4 fastapi_app: 22385 req/s
+[main 158/390 eta 103min] gil uvicorn-h11 process n=4 starlette_app: 23148 req/s
+[main 159/390 eta 102min] gil uvicorn-httptools thread n=1 fastapi_app: 5845 req/s
+[main 160/390 eta 102min] gil uvicorn-httptools process n=4 starlette_app: 50002 req/s
+[main 161/390 eta 102min] gil uh-batch thread n=1 starlette_app: 34924 req/s
+[main 162/390 eta 101min] gil uh-static thread n=4 raw: 307891 req/s
+[main 163/390 eta 101min] gil uvicorn-httptools process n=1 fastapi_app: 5869 req/s
+[main 164/390 eta 100min] gil uvicorn-httptools thread n=2 fastapi_app: 5479 req/s
+[main 165/390 eta 100min] gil granian process n=1 raw: 71923 req/s
+[main 166/390 eta 99min] gil granian process n=2 fastapi_app: 14211 req/s
+[main 167/390 eta 99min] gil uvicorn-h11 process n=4 raw: 30582 req/s
+[main 168/390 eta 98min] gil uvicorn-h11 process n=2 raw: 16748 req/s
+[main 169/390 eta 98min] gil uvicorn-httptools thread n=4 raw: 15721 req/s
+[main 170/390 eta 98min] gil uvicorn-httptools thread n=4 fastapi_app: 4770 req/s
+[main 171/390 eta 97min] gil granian process n=1 raw: 69807 req/s
+[main 172/390 eta 97min] gil uvicorn-httptools process n=2 fastapi_app: 11823 req/s
+[main 173/390 eta 96min] gil granian process n=1 starlette_app: 24721 req/s
+[main 174/390 eta 96min] gil uh-batch process n=4 fastapi_app: 32237 req/s
+[main 175/390 eta 95min] gil uvicorn-httptools process n=4 starlette_app: 49673 req/s
+[main 176/390 eta 95min] gil granian process n=1 fastapi_app: 7483 req/s
+[main 177/390 eta 94min] gil uh-request thread n=4 starlette_app: 28729 req/s
+[main 178/390 eta 94min] gil uh-batch thread n=4 raw: 197268 req/s
+[main 179/390 eta 94min] gil uvicorn-httptools thread n=4 fastapi_app: 4746 req/s
+[main 180/390 eta 93min] gil uh-batch thread n=1 fastapi_app: 8624 req/s
+[main 181/390 eta 93min] gil uvicorn-httptools thread n=1 starlette_app: 14479 req/s
+[main 182/390 eta 92min] gil uvicorn-httptools process n=2 starlette_app: 27997 req/s
+[main 183/390 eta 92min] gil granian process n=2 raw: 107493 req/s
+[main 184/390 eta 91min] gil uh-batch process n=2 starlette_app: 63654 req/s
+[main 185/390 eta 91min] gil uh-static thread n=1 raw: 122340 req/s
+[main 186/390 eta 90min] gil uh-request process n=4 starlette_app: 102774 req/s
+[main 187/390 eta 90min] gil granian process n=1 fastapi_app: 7495 req/s
+[main 188/390 eta 89min] gil uvicorn-httptools thread n=2 raw: 25168 req/s
+[main 189/390 eta 89min] gil uh-batch process n=1 raw: 100861 req/s
+[main 190/390 eta 89min] gil uvicorn-httptools thread n=1 raw: 29482 req/s
+[main 191/390 eta 88min] gil uvicorn-httptools process n=4 starlette_app: 49938 req/s
+[main 192/390 eta 88min] gil uvicorn-httptools thread n=1 raw: 30258 req/s
+[main 193/390 eta 87min] gil uh-request thread n=1 starlette_app: 33406 req/s
+[main 194/390 eta 87min] gil uvicorn-h11 process n=4 starlette_app: 23206 req/s
+[main 195/390 eta 86min] gil uh-request thread n=1 raw: 95211 req/s
+[main 196/390 eta 86min] gil uvicorn-httptools thread n=4 fastapi_app: 4775 req/s
+[main 197/390 eta 86min] gil uvicorn-h11 process n=2 raw: 16633 req/s
+[main 198/390 eta 85min] gil granian process n=1 fastapi_app: 7465 req/s
+[main 199/390 eta 85min] gil uh-request thread n=4 fastapi_app: 7836 req/s
+[main 200/390 eta 84min] gil uh-batch process n=4 starlette_app: 107794 req/s
+[main 201/390 eta 84min] gil uvicorn-httptools thread n=4 raw: 15652 req/s
+[main 202/390 eta 83min] gil uvicorn-httptools process n=4 starlette_app: 50112 req/s
+[main 203/390 eta 83min] gil uh-batch thread n=2 fastapi_app: 8729 req/s
+[main 204/390 eta 82min] gil uh-batch thread n=2 fastapi_app: 8713 req/s
+[main 205/390 eta 82min] gil uvicorn-httptools thread n=1 starlette_app: 14654 req/s
+[main 206/390 eta 81min] gil uvicorn-httptools process n=4 fastapi_app: 22749 req/s
+[main 207/390 eta 81min] gil uh-request thread n=2 starlette_app: 32847 req/s
+[main 208/390 eta 81min] gil uh-static process n=2 raw: 212686 req/s
+[main 209/390 eta 80min] gil uvicorn-httptools process n=4 raw: 92380 req/s
+[main 210/390 eta 80min] gil uh-request thread n=2 starlette_app: 33698 req/s
+[main 211/390 eta 79min] gil uh-request thread n=1 starlette_app: 33174 req/s
+[main 212/390 eta 79min] gil uh-batch process n=2 fastapi_app: 17157 req/s
+[main 213/390 eta 78min] gil granian process n=1 starlette_app: 23889 req/s
+[main 214/390 eta 78min] gil uh-request process n=1 starlette_app: 33875 req/s
+[main 215/390 eta 77min] gil granian process n=4 starlette_app: 63892 req/s
+[main 216/390 eta 77min] gil uh-request process n=2 starlette_app: 61011 req/s
+[main 217/390 eta 77min] gil uh-request process n=1 starlette_app: 33761 req/s
+[main 218/390 eta 76min] gil uh-batch process n=4 starlette_app: 105500 req/s
+[main 219/390 eta 76min] gil uh-request process n=2 raw: 161597 req/s
+[main 220/390 eta 75min] gil uh-request thread n=1 fastapi_app: 8428 req/s
+[main 221/390 eta 75min] gil uh-request thread n=4 raw: 95067 req/s
+[main 222/390 eta 75min] gil uh-batch process n=1 fastapi_app: 8639 req/s
+[main 223/390 eta 74min] gil uh-batch thread n=1 starlette_app: 34521 req/s
+[main 224/390 eta 74min] gil uh-batch process n=4 fastapi_app: 32382 req/s
+[main 225/390 eta 73min] gil uvicorn-h11 process n=4 raw: 30311 req/s
+[main 226/390 eta 73min] gil granian process n=4 raw: 124082 req/s
+[main 227/390 eta 72min] gil granian process n=4 raw: 122990 req/s
+[main 228/390 eta 72min] gil uvicorn-h11 process n=2 starlette_app: 12370 req/s
+[main 229/390 eta 71min] gil uh-request thread n=2 fastapi_app: 8025 req/s
+[main 230/390 eta 71min] gil uh-batch process n=4 starlette_app: 107357 req/s
+[main 231/390 eta 71min] gil uh-batch thread n=4 fastapi_app: 8386 req/s
+[main 232/390 eta 70min] gil uh-request thread n=1 raw: 95095 req/s
+[main 233/390 eta 70min] gil uh-request thread n=2 raw: 134605 req/s
+[main 234/390 eta 69min] gil uh-batch process n=2 raw: 167626 req/s
+[main 235/390 eta 69min] gil uvicorn-httptools thread n=4 fastapi_app: 4786 req/s
+[main 236/390 eta 68min] gil uh-request thread n=2 raw: 142909 req/s
+[main 237/390 eta 68min] gil uh-request process n=4 raw: 248231 req/s
+[main 238/390 eta 67min] gil uh-request process n=1 fastapi_app: 8468 req/s
+[main 239/390 eta 67min] gil uvicorn-httptools thread n=4 starlette_app: 9908 req/s
+[main 240/390 eta 67min] gil uh-request process n=1 raw: 96728 req/s
+[main 241/390 eta 66min] gil uh-batch thread n=1 fastapi_app: 8633 req/s
+[main 242/390 eta 66min] gil uh-batch thread n=1 raw: 102081 req/s
+[main 243/390 eta 65min] gil uvicorn-httptools process n=2 fastapi_app: 11830 req/s
+[main 244/390 eta 65min] gil uh-batch thread n=2 starlette_app: 39811 req/s
+[main 245/390 eta 64min] gil uh-batch process n=4 fastapi_app: 32703 req/s
+[main 246/390 eta 64min] gil granian process n=4 fastapi_app: 20727 req/s
+[main 247/390 eta 63min] gil uh-static process n=4 raw: 310640 req/s
+[main 248/390 eta 63min] gil uh-batch process n=1 fastapi_app: 8673 req/s
+[main 249/390 eta 63min] gil granian process n=1 starlette_app: 23836 req/s
+[main 250/390 eta 62min] gil uh-request process n=1 fastapi_app: 8483 req/s
+[main 251/390 eta 62min] gil uh-batch thread n=4 raw: 198091 req/s
+[main 252/390 eta 61min] gil uvicorn-h11 process n=2 raw: 16845 req/s
+[main 253/390 eta 61min] gil uvicorn-httptools thread n=1 raw: 29581 req/s
+[main 254/390 eta 60min] gil granian process n=1 fastapi_app: 7464 req/s
+[main 255/390 eta 60min] gil uh-request process n=2 raw: 158031 req/s
+[main 256/390 eta 59min] gil uh-request thread n=2 starlette_app: 32867 req/s
+[main 257/390 eta 59min] gil uvicorn-httptools thread n=4 starlette_app: 10029 req/s
+[main 258/390 eta 59min] gil uvicorn-h11 process n=2 starlette_app: 12570 req/s
+[main 259/390 eta 58min] gil uvicorn-httptools process n=4 raw: 92721 req/s
+[main 260/390 eta 58min] gil uvicorn-httptools thread n=2 starlette_app: 13395 req/s
+[main 261/390 eta 57min] gil uh-request thread n=4 fastapi_app: 7948 req/s
+[main 262/390 eta 57min] gil uvicorn-h11 process n=4 raw: 30654 req/s
+[main 263/390 eta 56min] gil uvicorn-httptools thread n=2 fastapi_app: 5490 req/s
+[main 264/390 eta 56min] gil uh-request process n=2 fastapi_app: 16813 req/s
+[main 265/390 eta 55min] gil uh-request thread n=1 fastapi_app: 8518 req/s
+[main 266/390 eta 55min] gil uh-batch process n=1 raw: 97987 req/s
+[main 267/390 eta 55min] gil uvicorn-h11 process n=4 fastapi_app: 14667 req/s
+[main 268/390 eta 54min] gil uh-request process n=1 raw: 96973 req/s
+[main 269/390 eta 54min] gil uh-batch process n=4 starlette_app: 105832 req/s
+[main 270/390 eta 53min] gil uh-batch process n=2 starlette_app: 64967 req/s
+[main 271/390 eta 53min] gil uh-request process n=4 fastapi_app: 31758 req/s
+[main 272/390 eta 52min] gil granian process n=2 starlette_app: 45005 req/s
+[main 273/390 eta 52min] gil uvicorn-httptools thread n=2 fastapi_app: 5510 req/s
+[main 274/390 eta 51min] gil uh-static thread n=2 raw: 208257 req/s
+[main 275/390 eta 51min] gil uvicorn-httptools thread n=1 raw: 29895 req/s
+[main 276/390 eta 51min] gil uh-batch thread n=2 fastapi_app: 8635 req/s
+[main 277/390 eta 50min] gil uh-batch process n=2 raw: 167653 req/s
+[main 278/390 eta 50min] gil uvicorn-h11 process n=1 raw: 8345 req/s
+[main 279/390 eta 49min] gil uh-batch thread n=1 raw: 98839 req/s
+[main 280/390 eta 49min] gil uh-batch process n=1 raw: 100092 req/s
+[main 281/390 eta 48min] gil uh-request process n=2 raw: 159531 req/s
+[main 282/390 eta 48min] gil uh-static thread n=4 raw: 308437 req/s
+[main 283/390 eta 48min] gil uh-request process n=4 fastapi_app: 32030 req/s
+[main 284/390 eta 47min] gil granian process n=2 raw: 107326 req/s
+[main 285/390 eta 47min] gil uh-static thread n=1 raw: 126388 req/s
+[main 286/390 eta 46min] gil uvicorn-httptools thread n=2 starlette_app: 13272 req/s
+[main 287/390 eta 46min] gil uh-static process n=1 raw: 128231 req/s
+[main 288/390 eta 45min] gil uh-request process n=1 starlette_app: 33958 req/s
+[main 289/390 eta 45min] gil uh-batch process n=1 fastapi_app: 8616 req/s
+[main 290/390 eta 44min] gil uh-batch thread n=2 starlette_app: 39946 req/s
+[main 291/390 eta 44min] gil uh-batch thread n=1 starlette_app: 35334 req/s
+[main 292/390 eta 44min] gil uh-batch thread n=1 starlette_app: 35736 req/s
+[main 293/390 eta 43min] gil uvicorn-httptools process n=1 fastapi_app: 5972 req/s
+[main 294/390 eta 43min] gil uh-request process n=4 starlette_app: 102532 req/s
+[main 295/390 eta 42min] gil uh-batch process n=2 fastapi_app: 17051 req/s
+[main 296/390 eta 42min] gil uvicorn-httptools thread n=1 fastapi_app: 5840 req/s
+[main 297/390 eta 41min] gil uh-static process n=2 raw: 208120 req/s
+[main 298/390 eta 41min] gil uh-batch thread n=4 fastapi_app: 8503 req/s
+[main 299/390 eta 40min] gil uvicorn-httptools process n=1 raw: 29562 req/s
+[main 300/390 eta 40min] gil uvicorn-h11 process n=4 fastapi_app: 14526 req/s
+[main 301/390 eta 40min] gil granian process n=4 raw: 122624 req/s
+[main 302/390 eta 39min] gil uh-batch thread n=2 starlette_app: 39233 req/s
+[main 303/390 eta 39min] gil uh-request thread n=4 starlette_app: 28844 req/s
+[main 304/390 eta 38min] gil uvicorn-httptools thread n=1 fastapi_app: 5957 req/s
+[main 305/390 eta 38min] gil uh-static process n=1 raw: 122679 req/s
+[main 306/390 eta 37min] gil uh-batch process n=1 raw: 100993 req/s
+[main 307/390 eta 37min] gil uh-request process n=1 raw: 92768 req/s
+[main 308/390 eta 36min] gil uh-batch process n=1 starlette_app: 35405 req/s
+[main 309/390 eta 36min] gil uvicorn-httptools process n=2 raw: 55963 req/s
+[main 310/390 eta 36min] gil granian process n=2 raw: 107886 req/s
+[main 311/390 eta 35min] gil uh-request thread n=2 fastapi_app: 8258 req/s
+[main 312/390 eta 35min] gil uvicorn-httptools thread n=2 fastapi_app: 5422 req/s
+[main 313/390 eta 34min] gil uvicorn-h11 process n=2 raw: 16936 req/s
+[main 314/390 eta 34min] gil granian process n=4 starlette_app: 63553 req/s
+[main 315/390 eta 33min] gil granian process n=1 raw: 71770 req/s
+[main 316/390 eta 33min] gil granian process n=4 fastapi_app: 20564 req/s
+[main 317/390 eta 32min] gil uh-static thread n=2 raw: 206291 req/s
+[main 318/390 eta 32min] gil uvicorn-httptools thread n=4 raw: 15772 req/s
+[main 319/390 eta 32min] gil uvicorn-h11 process n=4 starlette_app: 23145 req/s
+[main 320/390 eta 31min] gil uh-batch process n=1 starlette_app: 34416 req/s
+[main 321/390 eta 31min] gil uh-request thread n=4 starlette_app: 29132 req/s
+[main 322/390 eta 30min] gil granian process n=2 fastapi_app: 14342 req/s
+[main 323/390 eta 30min] gil uvicorn-httptools process n=1 raw: 30537 req/s
+[main 324/390 eta 29min] gil uvicorn-h11 process n=1 raw: 8127 req/s
+[main 325/390 eta 29min] gil uvicorn-h11 process n=1 fastapi_app: 3775 req/s
+[main 326/390 eta 28min] gil uh-batch process n=1 starlette_app: 35310 req/s
+[main 327/390 eta 28min] gil uh-static process n=1 raw: 128645 req/s
+[main 328/390 eta 28min] gil uh-request thread n=1 raw: 95307 req/s
+[main 329/390 eta 27min] gil uvicorn-h11 process n=1 starlette_app: 6304 req/s
+[main 330/390 eta 27min] gil uh-request thread n=4 raw: 92926 req/s
+[main 331/390 eta 26min] gil uh-request thread n=4 fastapi_app: 7835 req/s
+[main 332/390 eta 26min] gil granian process n=2 starlette_app: 44605 req/s
+[main 333/390 eta 25min] gil uh-request process n=1 starlette_app: 33817 req/s
+[main 334/390 eta 25min] gil uh-request process n=1 starlette_app: 33597 req/s
+[main 335/390 eta 24min] gil uh-request process n=2 fastapi_app: 16854 req/s
+[main 336/390 eta 24min] gil uh-static process n=1 raw: 129173 req/s
+[main 337/390 eta 24min] gil granian process n=4 fastapi_app: 20537 req/s
+[main 338/390 eta 23min] gil uh-batch thread n=4 starlette_app: 36487 req/s
+[main 339/390 eta 23min] gil granian process n=2 starlette_app: 45576 req/s
+[main 340/390 eta 22min] gil uvicorn-h11 process n=4 fastapi_app: 14676 req/s
+[main 341/390 eta 22min] gil uh-request process n=2 fastapi_app: 16871 req/s
+[main 342/390 eta 21min] gil uh-request thread n=4 starlette_app: 29915 req/s
+[main 343/390 eta 21min] gil uh-batch process n=2 fastapi_app: 17204 req/s
+[main 344/390 eta 20min] gil uvicorn-httptools thread n=2 starlette_app: 13316 req/s
+[main 345/390 eta 20min] gil uvicorn-httptools process n=1 starlette_app: 14624 req/s
+[main 346/390 eta 20min] gil uh-batch thread n=1 raw: 98149 req/s
+[main 347/390 eta 19min] gil uvicorn-h11 process n=1 fastapi_app: 3817 req/s
+[main 348/390 eta 19min] gil uh-batch process n=2 starlette_app: 63713 req/s
+[main 349/390 eta 18min] gil uvicorn-httptools process n=2 fastapi_app: 11867 req/s
+[main 350/390 eta 18min] gil uvicorn-httptools process n=2 starlette_app: 28142 req/s
+[main 351/390 eta 17min] gil uh-batch process n=2 raw: 162526 req/s
+[main 352/390 eta 17min] gil uh-batch thread n=2 starlette_app: 38979 req/s
+[main 353/390 eta 16min] gil uvicorn-httptools process n=1 starlette_app: 14710 req/s
+[main 354/390 eta 16min] gil uvicorn-httptools thread n=2 fastapi_app: 5384 req/s
+[main 355/390 eta 16min] gil uh-request thread n=2 fastapi_app: 8320 req/s
+[main 356/390 eta 15min] gil uvicorn-httptools process n=2 fastapi_app: 11770 req/s
+[main 357/390 eta 15min] gil uh-request process n=1 raw: 94264 req/s
+[main 358/390 eta 14min] gil uvicorn-h11 process n=1 fastapi_app: 3711 req/s
+[main 359/390 eta 14min] gil uvicorn-httptools process n=1 fastapi_app: 5785 req/s
+[main 360/390 eta 13min] gil uvicorn-httptools process n=4 fastapi_app: 22443 req/s
+[main 361/390 eta 13min] gil uvicorn-httptools process n=2 raw: 55522 req/s
+[main 362/390 eta 12min] gil uh-batch process n=4 raw: 257068 req/s
+[main 363/390 eta 12min] gil uvicorn-h11 process n=1 starlette_app: 6300 req/s
+[main 364/390 eta 12min] gil uh-request thread n=1 raw: 97687 req/s
+[main 365/390 eta 11min] gil uvicorn-httptools thread n=1 fastapi_app: 5915 req/s
+[main 366/390 eta 11min] gil uh-static process n=1 raw: 130193 req/s
+[main 367/390 eta 10min] gil uh-batch thread n=4 starlette_app: 35980 req/s
+[main 368/390 eta 10min] gil uh-batch thread n=1 starlette_app: 35155 req/s
+[main 369/390 eta 9min] gil granian process n=4 starlette_app: 63732 req/s
+[main 370/390 eta 9min] gil uh-request thread n=2 fastapi_app: 8188 req/s
+[main 371/390 eta 8min] gil uvicorn-httptools thread n=4 fastapi_app: 4694 req/s
+[main 372/390 eta 8min] gil uh-batch thread n=4 fastapi_app: 8329 req/s
+[main 373/390 eta 8min] gil uvicorn-h11 process n=1 raw: 8339 req/s
+[main 374/390 eta 7min] gil granian process n=4 fastapi_app: 20530 req/s
+[main 375/390 eta 7min] gil uh-static thread n=4 raw: 305067 req/s
+[main 376/390 eta 6min] gil uh-static process n=4 raw: 305602 req/s
+[main 377/390 eta 6min] gil uvicorn-httptools thread n=1 starlette_app: 14579 req/s
+[main 378/390 eta 5min] gil granian process n=2 starlette_app: 44836 req/s
+[main 379/390 eta 5min] gil uh-batch process n=1 raw: 100122 req/s
+[main 380/390 eta 4min] gil granian process n=1 starlette_app: 24316 req/s
+[main 381/390 eta 4min] gil uh-request thread n=2 raw: 132504 req/s
+[main 382/390 eta 4min] gil uh-request process n=2 raw: 165210 req/s
+[main 383/390 eta 3min] gil uvicorn-h11 process n=1 starlette_app: 6233 req/s
+[main 384/390 eta 3min] gil uh-request thread n=4 fastapi_app: 7942 req/s
+[main 385/390 eta 2min] gil uh-request thread n=2 raw: 133926 req/s
+[main 386/390 eta 2min] gil uh-static thread n=4 raw: 305337 req/s
+[main 387/390 eta 1min] gil uvicorn-h11 process n=2 starlette_app: 12395 req/s
+[main 388/390 eta 1min] gil granian process n=2 raw: 107079 req/s
+[main 389/390 eta 0min] gil uh-request process n=4 starlette_app: 106341 req/s
+[main 390/390 eta 0min] gil uh-request thread n=2 fastapi_app: 8214 req/s
+[hold 1/36 eta 15min] gil uh-request thread n=4 fastapi_app: 7849 req/s
+[hold 2/36 eta 15min] gil uh-request thread n=4 starlette_app: 29316 req/s
+[hold 3/36 eta 14min] gil uh-request thread n=1 raw: 93651 req/s
+[hold 4/36 eta 14min] gil uh-request thread n=4 starlette_app: 29293 req/s
+[hold 5/36 eta 14min] gil uh-request thread n=4 fastapi_app: 7782 req/s
+[hold 6/36 eta 13min] gil uh-request thread n=1 raw: 95035 req/s
+[hold 7/36 eta 13min] gil uh-batch thread n=4 starlette_app: 36214 req/s
+[hold 8/36 eta 12min] gil uh-request thread n=4 starlette_app: 29198 req/s
+[hold 9/36 eta 12min] gil uh-batch thread n=4 starlette_app: 36802 req/s
+[hold 10/36 eta 11min] gil uh-batch thread n=1 starlette_app: 35505 req/s
+[hold 11/36 eta 11min] gil uh-batch thread n=4 starlette_app: 36446 req/s
+[hold 12/36 eta 10min] gil uh-batch thread n=4 fastapi_app: 8375 req/s
+[hold 13/36 eta 10min] gil uh-request thread n=1 fastapi_app: 8441 req/s
+[hold 14/36 eta 10min] gil uh-batch thread n=4 raw: 196849 req/s
+[hold 15/36 eta 9min] gil uh-batch thread n=1 raw: 100801 req/s
+[hold 16/36 eta 9min] gil uh-request thread n=4 raw: 91214 req/s
+[hold 17/36 eta 8min] gil uh-batch thread n=1 fastapi_app: 8475 req/s
+[hold 18/36 eta 8min] gil uh-request thread n=1 starlette_app: 32389 req/s
+[hold 19/36 eta 7min] gil uh-batch thread n=4 fastapi_app: 8261 req/s
+[hold 20/36 eta 7min] gil uh-request thread n=4 raw: 89268 req/s
+[hold 21/36 eta 7min] gil uh-request thread n=1 starlette_app: 32317 req/s
+[hold 22/36 eta 6min] gil uh-request thread n=4 raw: 92211 req/s
+[hold 23/36 eta 6min] gil uh-batch thread n=4 raw: 193724 req/s
+[hold 24/36 eta 5min] gil uh-batch thread n=4 fastapi_app: 8311 req/s
+[hold 25/36 eta 5min] gil uh-request thread n=1 raw: 95077 req/s
+[hold 26/36 eta 4min] gil uh-batch thread n=1 raw: 100159 req/s
+[hold 27/36 eta 4min] gil uh-request thread n=1 starlette_app: 33698 req/s
+[hold 28/36 eta 3min] gil uh-batch thread n=1 starlette_app: 34835 req/s
+[hold 29/36 eta 3min] gil uh-batch thread n=1 fastapi_app: 8552 req/s
+[hold 30/36 eta 3min] gil uh-batch thread n=1 fastapi_app: 8625 req/s
+[hold 31/36 eta 2min] gil uh-batch thread n=1 raw: 100328 req/s
+[hold 32/36 eta 2min] gil uh-batch thread n=4 raw: 196662 req/s
+[hold 33/36 eta 1min] gil uh-request thread n=1 fastapi_app: 8351 req/s
+[hold 34/36 eta 1min] gil uh-batch thread n=1 starlette_app: 34879 req/s
+[hold 35/36 eta 0min] gil uh-request thread n=1 fastapi_app: 8427 req/s
+[hold 36/36 eta 0min] gil uh-request thread n=4 fastapi_app: 7756 req/s
+[ft 1/100 eta 43min] ft uh-request thread n=1 raw: 91561 req/s
+[ft 2/100 eta 43min] ft uh-batch thread n=4 raw: 239003 req/s
+[ft 3/100 eta 42min] ft uh-batch thread n=1 fastapi_app: 7150 req/s
+[ft 4/100 eta 42min] ft uh-request thread n=4 raw: 232978 req/s
+[ft 5/100 eta 42min] ft uvicorn-httptools-asyncio process n=1 fastapi_app: 4825 req/s
+[ft 6/100 eta 41min] ft uvicorn-httptools-asyncio thread n=1 raw: 23867 req/s
+[ft 7/100 eta 41min] ft uvicorn-httptools-asyncio thread n=1 fastapi_app: 4863 req/s
+[ft 8/100 eta 40min] ft uh-request thread n=4 raw: 228296 req/s
+[ft 9/100 eta 41min] ft uh-batch process n=1 fastapi_app: 7070 req/s
+[ft 10/100 eta 40min] ft uvicorn-httptools-asyncio thread n=4 raw: 68021 req/s
+[ft 11/100 eta 40min] ft uh-request thread n=1 fastapi_app: 6943 req/s
+[ft 12/100 eta 39min] ft uh-batch thread n=4 fastapi_app: 21488 req/s
+[ft 13/100 eta 39min] ft uh-batch process n=1 raw: 92807 req/s
+[ft 14/100 eta 38min] ft uh-batch thread n=1 fastapi_app: 7104 req/s
+[ft 15/100 eta 38min] ft uh-batch process n=4 raw: 245387 req/s
+[ft 16/100 eta 37min] ft uh-request thread n=1 fastapi_app: 6924 req/s
+[ft 17/100 eta 37min] ft uvicorn-httptools-asyncio process n=4 raw: 74900 req/s
+[ft 18/100 eta 36min] ft uh-request thread n=1 fastapi_app: 6916 req/s
+[ft 19/100 eta 36min] ft uvicorn-httptools-asyncio process n=4 fastapi_app: 18598 req/s
+[ft 20/100 eta 36min] ft uvicorn-httptools-asyncio thread n=4 raw: 68292 req/s
+[ft 21/100 eta 35min] ft uvicorn-httptools-asyncio process n=4 fastapi_app: 18820 req/s
+[ft 22/100 eta 35min] ft uh-batch process n=1 fastapi_app: 7163 req/s
+[ft 23/100 eta 34min] ft uvicorn-httptools-asyncio thread n=4 raw: 66763 req/s
+[ft 24/100 eta 34min] ft uh-batch thread n=1 raw: 95580 req/s
+[ft 25/100 eta 33min] ft uh-batch process n=4 fastapi_app: 26790 req/s
+[ft 26/100 eta 33min] ft uvicorn-httptools-asyncio thread n=4 fastapi_app: 16280 req/s
+[ft 27/100 eta 33min] ft uvicorn-httptools-asyncio thread n=1 raw: 25100 req/s
+[ft 28/100 eta 32min] ft uvicorn-httptools-asyncio thread n=4 raw: 68890 req/s
+[ft 29/100 eta 32min] ft uvicorn-httptools-asyncio thread n=4 fastapi_app: 16446 req/s
+[ft 30/100 eta 31min] ft uh-batch thread n=4 fastapi_app: 22642 req/s
+[ft 31/100 eta 31min] ft uvicorn-httptools-asyncio process n=1 raw: 23679 req/s
+[ft 32/100 eta 30min] ft uh-batch thread n=4 fastapi_app: 22459 req/s
+[ft 33/100 eta 30min] ft uvicorn-httptools-asyncio thread n=4 fastapi_app: 16273 req/s
+[ft 34/100 eta 29min] ft uh-batch process n=4 fastapi_app: 26776 req/s
+[ft 35/100 eta 29min] ft uh-batch process n=4 fastapi_app: 25849 req/s
+[ft 36/100 eta 28min] ft uh-request thread n=4 fastapi_app: 21432 req/s
+[ft 37/100 eta 28min] ft uvicorn-httptools-asyncio thread n=1 fastapi_app: 4936 req/s
+[ft 38/100 eta 28min] ft uh-request thread n=4 fastapi_app: 21214 req/s
+[ft 39/100 eta 27min] ft uvicorn-httptools-asyncio thread n=1 raw: 24420 req/s
+[ft 40/100 eta 27min] ft uh-batch thread n=4 fastapi_app: 22374 req/s
+[ft 41/100 eta 26min] ft uh-batch thread n=1 raw: 93955 req/s
+[ft 42/100 eta 26min] ft uh-batch thread n=4 raw: 236652 req/s
+[ft 43/100 eta 25min] ft uh-request thread n=1 raw: 91056 req/s
+[ft 44/100 eta 25min] ft uh-batch thread n=1 fastapi_app: 7205 req/s
+[ft 45/100 eta 24min] ft uvicorn-httptools-asyncio thread n=4 fastapi_app: 16420 req/s
+[ft 46/100 eta 24min] ft uh-batch process n=4 fastapi_app: 26653 req/s
+[ft 47/100 eta 24min] ft uvicorn-httptools-asyncio process n=1 raw: 24645 req/s
+[ft 48/100 eta 23min] ft uvicorn-httptools-asyncio thread n=4 raw: 68619 req/s
+[ft 49/100 eta 23min] ft uvicorn-httptools-asyncio thread n=1 fastapi_app: 4925 req/s
+[ft 50/100 eta 22min] ft uh-request thread n=4 raw: 231450 req/s
+[ft 51/100 eta 22min] ft uh-request thread n=1 fastapi_app: 6958 req/s
+[ft 52/100 eta 21min] ft uvicorn-httptools-asyncio process n=4 raw: 74827 req/s
+[ft 53/100 eta 21min] ft uh-batch thread n=4 raw: 234815 req/s
+[ft 54/100 eta 20min] ft uh-batch process n=1 raw: 94089 req/s
+[ft 55/100 eta 20min] ft uh-batch process n=1 fastapi_app: 7095 req/s
+[ft 56/100 eta 19min] ft uh-batch process n=4 raw: 244103 req/s
+[ft 57/100 eta 19min] ft uh-request thread n=4 fastapi_app: 21883 req/s
+[ft 58/100 eta 19min] ft uvicorn-httptools-asyncio process n=4 raw: 75532 req/s
+[ft 59/100 eta 18min] ft uh-request thread n=1 raw: 90284 req/s
+[ft 60/100 eta 18min] ft uvicorn-httptools-asyncio process n=4 fastapi_app: 18900 req/s
+[ft 61/100 eta 17min] ft uh-batch process n=1 raw: 95546 req/s
+[ft 62/100 eta 17min] ft uh-batch thread n=1 fastapi_app: 7067 req/s
+[ft 63/100 eta 16min] ft uh-batch process n=1 fastapi_app: 7133 req/s
+[ft 64/100 eta 16min] ft uvicorn-httptools-asyncio process n=4 fastapi_app: 18800 req/s
+[ft 65/100 eta 16min] ft uvicorn-httptools-asyncio process n=4 raw: 74684 req/s
+[ft 66/100 eta 15min] ft uvicorn-httptools-asyncio process n=1 raw: 23970 req/s
+[ft 67/100 eta 15min] ft uvicorn-httptools-asyncio thread n=1 raw: 24416 req/s
+[ft 68/100 eta 14min] ft uvicorn-httptools-asyncio thread n=1 raw: 24431 req/s
+[ft 69/100 eta 14min] ft uvicorn-httptools-asyncio process n=1 fastapi_app: 4815 req/s
+[ft 70/100 eta 13min] ft uvicorn-httptools-asyncio process n=1 raw: 24371 req/s
+[ft 71/100 eta 13min] ft uh-batch process n=1 raw: 94070 req/s
+[ft 72/100 eta 12min] ft uh-batch thread n=1 raw: 96755 req/s
+[ft 73/100 eta 12min] ft uh-batch thread n=1 raw: 95754 req/s
+[ft 74/100 eta 12min] ft uvicorn-httptools-asyncio thread n=1 fastapi_app: 4892 req/s
+[ft 75/100 eta 11min] ft uh-request thread n=4 fastapi_app: 21177 req/s
+[ft 76/100 eta 11min] ft uh-request thread n=1 raw: 91321 req/s
+[ft 77/100 eta 10min] ft uh-request thread n=1 raw: 91086 req/s
+[ft 78/100 eta 10min] ft uvicorn-httptools-asyncio process n=1 raw: 24600 req/s
+[ft 79/100 eta 9min] ft uvicorn-httptools-asyncio process n=1 fastapi_app: 4899 req/s
+[ft 80/100 eta 9min] ft uvicorn-httptools-asyncio process n=4 fastapi_app: 18718 req/s
+[ft 81/100 eta 8min] ft uh-batch process n=4 raw: 244198 req/s
+[ft 82/100 eta 8min] ft uh-batch thread n=1 raw: 97204 req/s
+[ft 83/100 eta 8min] ft uh-batch process n=4 fastapi_app: 26645 req/s
+[ft 84/100 eta 7min] ft uh-batch thread n=4 fastapi_app: 22415 req/s
+[ft 85/100 eta 7min] ft uvicorn-httptools-asyncio process n=1 fastapi_app: 4826 req/s
+[ft 86/100 eta 6min] ft uh-batch thread n=1 fastapi_app: 6996 req/s
+[ft 87/100 eta 6min] ft uh-batch process n=1 fastapi_app: 7065 req/s
+[ft 88/100 eta 5min] ft uh-request thread n=1 fastapi_app: 6994 req/s
+[ft 89/100 eta 5min] ft uvicorn-httptools-asyncio thread n=1 fastapi_app: 4872 req/s
+[ft 90/100 eta 4min] ft uh-batch thread n=4 raw: 236706 req/s
+[ft 91/100 eta 4min] ft uh-batch process n=4 raw: 243414 req/s
+[ft 92/100 eta 4min] ft uvicorn-httptools-asyncio thread n=4 fastapi_app: 16037 req/s
+[ft 93/100 eta 3min] ft uh-batch process n=1 raw: 92316 req/s
+[ft 94/100 eta 3min] ft uh-batch process n=4 raw: 245917 req/s
+[ft 95/100 eta 2min] ft uh-request thread n=4 raw: 236434 req/s
+[ft 96/100 eta 2min] ft uh-batch thread n=4 raw: 236399 req/s
+[ft 97/100 eta 1min] ft uvicorn-httptools-asyncio process n=4 raw: 75852 req/s
+[ft 98/100 eta 1min] ft uvicorn-httptools-asyncio process n=1 fastapi_app: 4899 req/s
+[ft 99/100 eta 0min] ft uh-request thread n=4 raw: 232353 req/s
+[ft 100/100 eta 0min] ft uh-request thread n=4 fastapi_app: 22037 req/s
+[openloop 1/168 eta 73min] gil uh-batch thread n=4 fastapi_app R=40000: 8388 req/s
+[openloop 2/168 eta 73min] gil uvicorn-httptools process n=4 fastapi_app R=60000: 22249 req/s
+[openloop 3/168 eta 72min] gil uvicorn-httptools process n=4 raw R=100000: 88974 req/s
+[openloop 4/168 eta 72min] gil uh-request thread n=4 raw R=150000: 93304 req/s
+[openloop 5/168 eta 71min] gil uh-batch process n=4 fastapi_app R=30000: 28692 req/s
+[openloop 6/168 eta 71min] gil uvicorn-httptools process n=4 raw R=25000: 24854 req/s
+[openloop 7/168 eta 70min] gil uh-batch process n=4 raw R=50000: 49423 req/s
+[openloop 8/168 eta 70min] gil uh-batch thread n=4 raw R=200000: 191642 req/s
+[openloop 9/168 eta 69min] gil uh-batch thread n=4 fastapi_app R=10000: 8295 req/s
+[openloop 10/168 eta 69min] gil uvicorn-httptools process n=4 raw R=150000: 92874 req/s
+[openloop 11/168 eta 68min] gil uvicorn-httptools process n=4 raw R=25000: 24707 req/s
+[openloop 12/168 eta 68min] gil uvicorn-httptools process n=4 fastapi_app R=20000: 19772 req/s
+[openloop 13/168 eta 68min] gil uvicorn-httptools process n=4 raw R=250000: 92952 req/s
+[openloop 14/168 eta 68min] gil uh-batch process n=4 fastapi_app R=5000: 4941 req/s
+[openloop 15/168 eta 68min] gil uh-batch process n=4 raw R=50000: 49699 req/s
+[openloop 16/168 eta 67min] gil uh-batch thread n=4 raw R=250000: 193521 req/s
+[openloop 17/168 eta 67min] gil uvicorn-httptools process n=4 fastapi_app R=20000: 19463 req/s
+[openloop 18/168 eta 66min] gil uvicorn-httptools process n=4 fastapi_app R=30000: 22012 req/s
+[openloop 19/168 eta 66min] gil uh-batch process n=4 fastapi_app R=20000: 19773 req/s
+[openloop 20/168 eta 65min] gil uh-request thread n=4 raw R=100000: 91880 req/s
+[openloop 21/168 eta 65min] gil uh-batch thread n=4 raw R=10000: 9947 req/s
+[openloop 22/168 eta 64min] gil uh-batch thread n=4 raw R=200000: 190883 req/s
+[openloop 23/168 eta 64min] gil uh-request thread n=4 fastapi_app R=30000: 7770 req/s
+[openloop 24/168 eta 63min] gil uh-request thread n=4 fastapi_app R=50000: 7822 req/s
+[openloop 25/168 eta 63min] gil uh-batch thread n=4 fastapi_app R=30000: 8505 req/s
+[openloop 26/168 eta 63min] gil uh-batch process n=4 raw R=200000: 197657 req/s
+[openloop 27/168 eta 62min] gil uh-batch process n=4 fastapi_app R=60000: 32085 req/s
+[openloop 28/168 eta 62min] gil uh-request thread n=4 fastapi_app R=40000: 7979 req/s
+[openloop 29/168 eta 61min] gil uh-request thread n=4 fastapi_app R=60000: 7910 req/s
+[openloop 30/168 eta 61min] gil uh-batch thread n=4 fastapi_app R=10000: 8447 req/s
+[openloop 31/168 eta 60min] gil uh-batch process n=4 raw R=50000: 49147 req/s
+[openloop 32/168 eta 60min] gil uh-batch process n=4 raw R=200000: 197668 req/s
+[openloop 33/168 eta 60min] gil uh-request thread n=4 raw R=150000: 90025 req/s
+[openloop 34/168 eta 59min] gil uvicorn-httptools process n=4 raw R=150000: 92267 req/s
+[openloop 35/168 eta 59min] gil uh-batch process n=4 fastapi_app R=50000: 32464 req/s
+[openloop 36/168 eta 58min] gil uh-batch thread n=4 raw R=200000: 195717 req/s
+[openloop 37/168 eta 58min] gil uh-batch process n=4 fastapi_app R=60000: 32541 req/s
+[openloop 38/168 eta 57min] gil uh-batch thread n=4 raw R=10000: 9891 req/s
+[openloop 39/168 eta 57min] gil uh-batch process n=4 fastapi_app R=30000: 29485 req/s
+[openloop 40/168 eta 56min] gil uh-request thread n=4 raw R=25000: 24570 req/s
+[openloop 41/168 eta 56min] gil uh-batch process n=4 fastapi_app R=5000: 4942 req/s
+[openloop 42/168 eta 55min] gil uh-batch process n=4 raw R=100000: 98294 req/s
+[openloop 43/168 eta 55min] gil uh-request thread n=4 fastapi_app R=5000: 4914 req/s
+[openloop 44/168 eta 55min] gil uh-batch process n=4 raw R=25000: 24707 req/s
+[openloop 45/168 eta 55min] gil uh-batch process n=4 raw R=100000: 98837 req/s
+[openloop 46/168 eta 54min] gil uh-batch thread n=4 fastapi_app R=50000: 8281 req/s
+[openloop 47/168 eta 54min] gil uvicorn-httptools process n=4 fastapi_app R=30000: 21963 req/s
+[openloop 48/168 eta 53min] gil uh-batch process n=4 raw R=150000: 149068 req/s
+[openloop 49/168 eta 53min] gil uvicorn-httptools process n=4 raw R=200000: 92341 req/s
+[openloop 50/168 eta 52min] gil uh-batch process n=4 fastapi_app R=40000: 32081 req/s
+[openloop 51/168 eta 52min] gil uvicorn-httptools process n=4 raw R=50000: 49143 req/s
+[openloop 52/168 eta 51min] gil uvicorn-httptools process n=4 raw R=50000: 49144 req/s
+[openloop 53/168 eta 51min] gil uh-request thread n=4 fastapi_app R=60000: 7795 req/s
+[openloop 54/168 eta 51min] gil uh-batch thread n=4 fastapi_app R=30000: 8452 req/s
+[openloop 55/168 eta 50min] gil uh-batch thread n=4 fastapi_app R=20000: 8493 req/s
+[openloop 56/168 eta 50min] gil uh-batch process n=4 fastapi_app R=10000: 9835 req/s
+[openloop 57/168 eta 49min] gil uh-request thread n=4 fastapi_app R=20000: 7828 req/s
+[openloop 58/168 eta 49min] gil uh-batch thread n=4 fastapi_app R=30000: 8468 req/s
+[openloop 59/168 eta 48min] gil uvicorn-httptools process n=4 fastapi_app R=40000: 22451 req/s
+[openloop 60/168 eta 48min] gil uh-batch process n=4 fastapi_app R=5000: 4914 req/s
+[openloop 61/168 eta 47min] gil uh-batch thread n=4 fastapi_app R=60000: 8434 req/s
+[openloop 62/168 eta 47min] gil uh-batch thread n=4 raw R=50000: 49147 req/s
+[openloop 63/168 eta 46min] gil uvicorn-httptools process n=4 fastapi_app R=20000: 19577 req/s
+[openloop 64/168 eta 46min] gil uh-request thread n=4 raw R=200000: 93499 req/s
+[openloop 65/168 eta 46min] gil uvicorn-httptools process n=4 raw R=150000: 92695 req/s
+[openloop 66/168 eta 45min] gil uh-batch thread n=4 raw R=25000: 24855 req/s
+[openloop 67/168 eta 45min] gil uh-batch process n=4 fastapi_app R=50000: 32133 req/s
+[openloop 68/168 eta 44min] gil uh-batch thread n=4 fastapi_app R=50000: 8484 req/s
+[openloop 69/168 eta 44min] gil uh-batch thread n=4 raw R=100000: 99389 req/s
+[openloop 70/168 eta 43min] gil uh-request thread n=4 fastapi_app R=20000: 7884 req/s
+[openloop 71/168 eta 43min] gil uvicorn-httptools process n=4 fastapi_app R=50000: 22153 req/s
+[openloop 72/168 eta 42min] gil uh-request thread n=4 fastapi_app R=10000: 7810 req/s
+[openloop 73/168 eta 42min] gil uvicorn-httptools process n=4 raw R=100000: 88255 req/s
+[openloop 74/168 eta 42min] gil uh-request thread n=4 raw R=200000: 94202 req/s
+[openloop 75/168 eta 41min] gil uh-request thread n=4 raw R=25000: 24854 req/s
+[openloop 76/168 eta 41min] gil uh-request thread n=4 fastapi_app R=10000: 7841 req/s
+[openloop 77/168 eta 40min] gil uh-request thread n=4 raw R=250000: 89075 req/s
+[openloop 78/168 eta 40min] gil uh-request thread n=4 fastapi_app R=40000: 7958 req/s
+[openloop 79/168 eta 39min] gil uh-batch thread n=4 raw R=100000: 98285 req/s
+[openloop 80/168 eta 39min] gil uvicorn-httptools process n=4 fastapi_app R=50000: 22376 req/s
+[openloop 81/168 eta 38min] gil uh-request thread n=4 raw R=50000: 49143 req/s
+[openloop 82/168 eta 38min] gil uh-request thread n=4 fastapi_app R=20000: 7830 req/s
+[openloop 83/168 eta 37min] gil uh-request thread n=4 raw R=250000: 90084 req/s
+[openloop 84/168 eta 37min] gil uvicorn-httptools process n=4 raw R=200000: 92149 req/s
+[openloop 85/168 eta 37min] gil uh-batch thread n=4 raw R=50000: 49146 req/s
+[openloop 86/168 eta 36min] gil uvicorn-httptools process n=4 raw R=10000: 9891 req/s
+[openloop 87/168 eta 36min] gil uh-request thread n=4 fastapi_app R=30000: 7783 req/s
+[openloop 88/168 eta 35min] gil uh-batch thread n=4 raw R=25000: 24708 req/s
+[openloop 89/168 eta 35min] gil uh-batch thread n=4 raw R=100000: 98287 req/s
+[openloop 90/168 eta 34min] gil uvicorn-httptools process n=4 fastapi_app R=5000: 4914 req/s
+[openloop 91/168 eta 34min] gil uh-batch thread n=4 fastapi_app R=5000: 4914 req/s
+[openloop 92/168 eta 33min] gil uh-batch thread n=4 raw R=250000: 193018 req/s
+[openloop 93/168 eta 33min] gil uh-batch process n=4 raw R=25000: 24708 req/s
+[openloop 94/168 eta 33min] gil uh-batch thread n=4 fastapi_app R=5000: 4914 req/s
+[openloop 95/168 eta 32min] gil uh-batch thread n=4 raw R=150000: 147429 req/s
+[openloop 96/168 eta 32min] gil uh-batch thread n=4 fastapi_app R=40000: 8404 req/s
+[openloop 97/168 eta 31min] gil uh-request thread n=4 raw R=25000: 24854 req/s
+[openloop 98/168 eta 31min] gil uh-batch process n=4 raw R=150000: 149068 req/s
+[openloop 99/168 eta 30min] gil uh-batch process n=4 raw R=25000: 24571 req/s
+[openloop 100/168 eta 30min] gil uh-batch thread n=4 fastapi_app R=10000: 8377 req/s
+[openloop 101/168 eta 29min] gil uh-batch thread n=4 raw R=150000: 147427 req/s
+[openloop 102/168 eta 29min] gil uvicorn-httptools process n=4 fastapi_app R=10000: 9890 req/s
+[openloop 103/168 eta 29min] gil uvicorn-httptools process n=4 fastapi_app R=10000: 9891 req/s
+[openloop 104/168 eta 28min] gil uh-request thread n=4 raw R=50000: 49696 req/s
+[openloop 105/168 eta 28min] gil uvicorn-httptools process n=4 raw R=100000: 90450 req/s
+[openloop 106/168 eta 27min] gil uh-request thread n=4 raw R=100000: 89400 req/s
+[openloop 107/168 eta 27min] gil uh-request thread n=4 fastapi_app R=50000: 7859 req/s
+[openloop 108/168 eta 26min] gil uh-batch process n=4 raw R=250000: 242900 req/s
+[openloop 109/168 eta 26min] gil uh-batch thread n=4 raw R=150000: 149074 req/s
+[openloop 110/168 eta 26min] gil uh-batch thread n=4 raw R=250000: 192731 req/s
+[openloop 111/168 eta 25min] gil uh-request thread n=4 fastapi_app R=5000: 4978 req/s
+[openloop 112/168 eta 25min] gil uh-batch process n=4 fastapi_app R=30000: 29480 req/s
+[openloop 113/168 eta 24min] gil uvicorn-httptools process n=4 fastapi_app R=10000: 9834 req/s
+[openloop 114/168 eta 24min] gil uvicorn-httptools process n=4 raw R=25000: 24854 req/s
+[openloop 115/168 eta 23min] gil uh-batch process n=4 fastapi_app R=20000: 19773 req/s
+[openloop 116/168 eta 23min] gil uh-batch thread n=4 fastapi_app R=60000: 8448 req/s
+[openloop 117/168 eta 22min] gil uvicorn-httptools process n=4 raw R=10000: 9835 req/s
+[openloop 118/168 eta 22min] gil uvicorn-httptools process n=4 fastapi_app R=40000: 22274 req/s
+[openloop 119/168 eta 22min] gil uh-request thread n=4 raw R=50000: 49416 req/s
+[openloop 120/168 eta 21min] gil uh-request thread n=4 raw R=10000: 9947 req/s
+[openloop 121/168 eta 21min] gil uh-batch process n=4 fastapi_app R=60000: 32077 req/s
+[openloop 122/168 eta 20min] gil uvicorn-httptools process n=4 raw R=10000: 9947 req/s
+[openloop 123/168 eta 20min] gil uh-batch process n=4 raw R=250000: 242605 req/s
+[openloop 124/168 eta 19min] gil uh-batch thread n=4 fastapi_app R=20000: 8389 req/s
+[openloop 125/168 eta 19min] gil uvicorn-httptools process n=4 fastapi_app R=30000: 22175 req/s
+[openloop 126/168 eta 18min] gil uh-request thread n=4 raw R=10000: 9779 req/s
+[openloop 127/168 eta 18min] gil uh-batch process n=4 fastapi_app R=10000: 9891 req/s
+[openloop 128/168 eta 18min] gil uvicorn-httptools process n=4 fastapi_app R=40000: 22363 req/s
+[openloop 129/168 eta 17min] gil uh-batch process n=4 fastapi_app R=20000: 19774 req/s
+[openloop 130/168 eta 17min] gil uh-batch thread n=4 raw R=25000: 24706 req/s
+[openloop 131/168 eta 16min] gil uh-batch process n=4 raw R=250000: 241768 req/s
+[openloop 132/168 eta 16min] gil uvicorn-httptools process n=4 fastapi_app R=5000: 4978 req/s
+[openloop 133/168 eta 15min] gil uh-batch thread n=4 fastapi_app R=20000: 8359 req/s
+[openloop 134/168 eta 15min] gil uh-batch process n=4 fastapi_app R=50000: 32155 req/s
+[openloop 135/168 eta 15min] gil uh-batch process n=4 raw R=10000: 9835 req/s
+[openloop 136/168 eta 14min] gil uh-request thread n=4 fastapi_app R=40000: 7868 req/s
+[openloop 137/168 eta 14min] gil uh-batch process n=4 fastapi_app R=40000: 32059 req/s
+[openloop 138/168 eta 13min] gil uvicorn-httptools process n=4 raw R=50000: 49421 req/s
+[openloop 139/168 eta 13min] gil uvicorn-httptools process n=4 raw R=250000: 91845 req/s
+[openloop 140/168 eta 12min] gil uh-request thread n=4 fastapi_app R=50000: 7754 req/s
+[openloop 141/168 eta 12min] gil uh-request thread n=4 fastapi_app R=5000: 4941 req/s
+[openloop 142/168 eta 11min] gil uh-batch thread n=4 fastapi_app R=60000: 8541 req/s
+[openloop 143/168 eta 11min] gil uh-request thread n=4 fastapi_app R=30000: 7842 req/s
+[openloop 144/168 eta 11min] gil uh-batch process n=4 raw R=150000: 148249 req/s
+[openloop 145/168 eta 10min] gil uvicorn-httptools process n=4 raw R=250000: 92561 req/s
+[openloop 146/168 eta 10min] gil uh-batch process n=4 raw R=200000: 196571 req/s
+[openloop 147/168 eta 9min] gil uh-batch process n=4 raw R=100000: 99386 req/s
+[openloop 148/168 eta 9min] gil uh-batch process n=4 raw R=10000: 9892 req/s
+[openloop 149/168 eta 8min] gil uvicorn-httptools process n=4 fastapi_app R=60000: 22076 req/s
+[openloop 150/168 eta 8min] gil uh-request thread n=4 raw R=10000: 9892 req/s
+[openloop 151/168 eta 7min] gil uh-batch process n=4 fastapi_app R=10000: 9947 req/s
+[openloop 152/168 eta 7min] gil uh-batch process n=4 raw R=10000: 9891 req/s
+[openloop 153/168 eta 7min] gil uh-batch process n=4 fastapi_app R=40000: 32252 req/s
+[openloop 154/168 eta 6min] gil uh-request thread n=4 raw R=100000: 89783 req/s
+[openloop 155/168 eta 6min] gil uh-batch thread n=4 fastapi_app R=50000: 8312 req/s
+[openloop 156/168 eta 5min] gil uh-batch thread n=4 fastapi_app R=40000: 8418 req/s
+[openloop 157/168 eta 5min] gil uh-batch thread n=4 raw R=10000: 9891 req/s
+[openloop 158/168 eta 4min] gil uvicorn-httptools process n=4 raw R=200000: 91802 req/s
+[openloop 159/168 eta 4min] gil uh-batch thread n=4 fastapi_app R=5000: 4941 req/s
+[openloop 160/168 eta 4min] gil uvicorn-httptools process n=4 fastapi_app R=50000: 22191 req/s
+[openloop 161/168 eta 3min] gil uvicorn-httptools process n=4 fastapi_app R=5000: 4978 req/s
+[openloop 162/168 eta 3min] gil uh-request thread n=4 fastapi_app R=60000: 7757 req/s
+[openloop 163/168 eta 2min] gil uh-request thread n=4 raw R=150000: 93392 req/s
+[openloop 164/168 eta 2min] gil uvicorn-httptools process n=4 fastapi_app R=60000: 22285 req/s
+[openloop 165/168 eta 1min] gil uh-request thread n=4 raw R=200000: 92847 req/s
+[openloop 166/168 eta 1min] gil uh-batch thread n=4 raw R=50000: 49148 req/s
+[openloop 167/168 eta 0min] gil uh-request thread n=4 fastapi_app R=10000: 7916 req/s
+[openloop 168/168 eta 0min] gil uh-request thread n=4 raw R=250000: 94257 req/s

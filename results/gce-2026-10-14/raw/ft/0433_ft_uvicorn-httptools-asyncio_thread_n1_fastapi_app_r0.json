@@ -1,0 +1,46 @@
+{
+ "server": "uvicorn-httptools-asyncio",
+ "mode": "thread",
+ "app": "fastapi_app",
+ "workers": 1,
+ "build": "ft",
+ "rep": 0,
+ "command": "/opt/uh/venv-ft/bin/python ../servers/uvicorn_server.py fastapi_app:app --host 0.0.0.0 --port 8000 --workers 1 --mode thread --http httptools --loop asyncio --stats-file /tmp/uh-stats-433.jsonl",
+ "started": 1792015108.0375113,
+ "server_pid": 15112,
+ "wrk": {
+  "requests": 97332,
+  "duration_us": 20014848,
+  "bytes": 13529796,
+  "err_connect": 0,
+  "err_read": 0,
+  "err_write": 0,
+  "err_status": 0,
+  "err_timeout": 0,
+  "lat_mean_us": 82031.46,
+  "lat_p50_us": 81838,
+  "lat_p90_us": 84334,
+  "lat_p99_us": 86795,
+  "lat_p999_us": 132713,
+  "lat_max_us": 151511,
+  "rps": 4862.989716434518
+ },
+ "server_busy_share": 0.2646540880503145,
+ "server_steal_share": 0.0,
+ "server_cpus": 4,
+ "client_busy_share": 0.0404758907213899,
+ "server_counters": {
+  "voluntary_ctx": 102,
+  "involuntary_ctx": 69,
+  "utime": 17.32604,
+  "stime": 2.735195,
+  "gil_switches": 0,
+  "processes": 0
+ },
+ "server_processes": 1,
+ "gil_enabled": [
+  "False"
+ ],
+ "ok": true,
+ "finished": 1792015134.6982763
+}
